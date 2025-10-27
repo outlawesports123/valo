@@ -6,6 +6,7 @@ use Filament\Actions\BulkActionGroup;
 use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\EditAction;
 use Filament\Actions\ViewAction;
+use Filament\Tables\Columns\ImageColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 
@@ -21,12 +22,9 @@ class PlayersTable
                     ->searchable(),
                 TextColumn::make('display_name')
                     ->searchable(),
-                TextColumn::make('portrait')
-                    ->searchable(),
-                TextColumn::make('alt_photo_1')
-                    ->searchable(),
-                TextColumn::make('alt_photo_2')
-                    ->searchable(),
+                ImageColumn::make('portrait'),
+                ImageColumn::make('alt_photo_1'),
+                TextColumn::make('alt_photo_2'),
                 TextColumn::make('created_at')
                     ->dateTime()
                     ->sortable()
