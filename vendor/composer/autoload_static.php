@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitc514d8f7b9fc5970bdd94287905ef584
+class ComposerStaticInitf7b774c648bf40d96f6deebb6eb2e60d
 {
     public static $files = array (
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
@@ -736,9 +736,46 @@ class ComposerStaticInitc514d8f7b9fc5970bdd94287905ef584
         'AnourValar\\EloquentSerialize\\Grammars\\QueryBuilderGrammar' => __DIR__ . '/..' . '/anourvalar/eloquent-serialize/src/Grammars/QueryBuilderGrammar.php',
         'AnourValar\\EloquentSerialize\\Package' => __DIR__ . '/..' . '/anourvalar/eloquent-serialize/src/Package.php',
         'AnourValar\\EloquentSerialize\\Service' => __DIR__ . '/..' . '/anourvalar/eloquent-serialize/src/Service.php',
+        'App\\Filament\\Resources\\Heroes\\HeroResource' => __DIR__ . '/../..' . '/app/Filament/Resources/Heroes/HeroResource.php',
+        'App\\Filament\\Resources\\Heroes\\Pages\\CreateHero' => __DIR__ . '/../..' . '/app/Filament/Resources/Heroes/Pages/CreateHero.php',
+        'App\\Filament\\Resources\\Heroes\\Pages\\EditHero' => __DIR__ . '/../..' . '/app/Filament/Resources/Heroes/Pages/EditHero.php',
+        'App\\Filament\\Resources\\Heroes\\Pages\\ListHeroes' => __DIR__ . '/../..' . '/app/Filament/Resources/Heroes/Pages/ListHeroes.php',
+        'App\\Filament\\Resources\\Heroes\\Pages\\ViewHero' => __DIR__ . '/../..' . '/app/Filament/Resources/Heroes/Pages/ViewHero.php',
+        'App\\Filament\\Resources\\Heroes\\Schemas\\HeroForm' => __DIR__ . '/../..' . '/app/Filament/Resources/Heroes/Schemas/HeroForm.php',
+        'App\\Filament\\Resources\\Heroes\\Schemas\\HeroInfolist' => __DIR__ . '/../..' . '/app/Filament/Resources/Heroes/Schemas/HeroInfolist.php',
+        'App\\Filament\\Resources\\Heroes\\Tables\\HeroesTable' => __DIR__ . '/../..' . '/app/Filament/Resources/Heroes/Tables/HeroesTable.php',
+        'App\\Filament\\Resources\\Players\\Pages\\CreatePlayer' => __DIR__ . '/../..' . '/app/Filament/Resources/Players/Pages/CreatePlayer.php',
+        'App\\Filament\\Resources\\Players\\Pages\\EditPlayer' => __DIR__ . '/../..' . '/app/Filament/Resources/Players/Pages/EditPlayer.php',
+        'App\\Filament\\Resources\\Players\\Pages\\ListPlayers' => __DIR__ . '/../..' . '/app/Filament/Resources/Players/Pages/ListPlayers.php',
+        'App\\Filament\\Resources\\Players\\Pages\\ViewPlayer' => __DIR__ . '/../..' . '/app/Filament/Resources/Players/Pages/ViewPlayer.php',
+        'App\\Filament\\Resources\\Players\\PlayerResource' => __DIR__ . '/../..' . '/app/Filament/Resources/Players/PlayerResource.php',
+        'App\\Filament\\Resources\\Players\\Schemas\\PlayerForm' => __DIR__ . '/../..' . '/app/Filament/Resources/Players/Schemas/PlayerForm.php',
+        'App\\Filament\\Resources\\Players\\Schemas\\PlayerInfolist' => __DIR__ . '/../..' . '/app/Filament/Resources/Players/Schemas/PlayerInfolist.php',
+        'App\\Filament\\Resources\\Players\\Tables\\PlayersTable' => __DIR__ . '/../..' . '/app/Filament/Resources/Players/Tables/PlayersTable.php',
+        'App\\Filament\\Resources\\Teams\\Pages\\CreateTeam' => __DIR__ . '/../..' . '/app/Filament/Resources/Teams/Pages/CreateTeam.php',
+        'App\\Filament\\Resources\\Teams\\Pages\\EditTeam' => __DIR__ . '/../..' . '/app/Filament/Resources/Teams/Pages/EditTeam.php',
+        'App\\Filament\\Resources\\Teams\\Pages\\ListTeams' => __DIR__ . '/../..' . '/app/Filament/Resources/Teams/Pages/ListTeams.php',
+        'App\\Filament\\Resources\\Teams\\Pages\\ViewTeam' => __DIR__ . '/../..' . '/app/Filament/Resources/Teams/Pages/ViewTeam.php',
+        'App\\Filament\\Resources\\Teams\\Schemas\\TeamForm' => __DIR__ . '/../..' . '/app/Filament/Resources/Teams/Schemas/TeamForm.php',
+        'App\\Filament\\Resources\\Teams\\Schemas\\TeamInfolist' => __DIR__ . '/../..' . '/app/Filament/Resources/Teams/Schemas/TeamInfolist.php',
+        'App\\Filament\\Resources\\Teams\\Tables\\TeamsTable' => __DIR__ . '/../..' . '/app/Filament/Resources/Teams/Tables/TeamsTable.php',
+        'App\\Filament\\Resources\\Teams\\TeamResource' => __DIR__ . '/../..' . '/app/Filament/Resources/Teams/TeamResource.php',
+        'App\\Filament\\Resources\\Tournaments\\Pages\\CreateTournament' => __DIR__ . '/../..' . '/app/Filament/Resources/Tournaments/Pages/CreateTournament.php',
+        'App\\Filament\\Resources\\Tournaments\\Pages\\EditTournament' => __DIR__ . '/../..' . '/app/Filament/Resources/Tournaments/Pages/EditTournament.php',
+        'App\\Filament\\Resources\\Tournaments\\Pages\\ListTournaments' => __DIR__ . '/../..' . '/app/Filament/Resources/Tournaments/Pages/ListTournaments.php',
+        'App\\Filament\\Resources\\Tournaments\\Pages\\ViewTournament' => __DIR__ . '/../..' . '/app/Filament/Resources/Tournaments/Pages/ViewTournament.php',
+        'App\\Filament\\Resources\\Tournaments\\Schemas\\TournamentForm' => __DIR__ . '/../..' . '/app/Filament/Resources/Tournaments/Schemas/TournamentForm.php',
+        'App\\Filament\\Resources\\Tournaments\\Schemas\\TournamentInfolist' => __DIR__ . '/../..' . '/app/Filament/Resources/Tournaments/Schemas/TournamentInfolist.php',
+        'App\\Filament\\Resources\\Tournaments\\Tables\\TournamentsTable' => __DIR__ . '/../..' . '/app/Filament/Resources/Tournaments/Tables/TournamentsTable.php',
+        'App\\Filament\\Resources\\Tournaments\\TournamentResource' => __DIR__ . '/../..' . '/app/Filament/Resources/Tournaments/TournamentResource.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Models\\Hero' => __DIR__ . '/../..' . '/app/Models/Hero.php',
+        'App\\Models\\Player' => __DIR__ . '/../..' . '/app/Models/Player.php',
+        'App\\Models\\Team' => __DIR__ . '/../..' . '/app/Models/Team.php',
+        'App\\Models\\Tournament' => __DIR__ . '/../..' . '/app/Models/Tournament.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
+        'App\\Providers\\Filament\\AdminPanelProvider' => __DIR__ . '/../..' . '/app/Providers/Filament/AdminPanelProvider.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'BladeUI\\Heroicons\\BladeHeroiconsServiceProvider' => __DIR__ . '/..' . '/blade-ui-kit/blade-heroicons/src/BladeHeroiconsServiceProvider.php',
         'BladeUI\\Icons\\BladeIconsServiceProvider' => __DIR__ . '/..' . '/blade-ui-kit/blade-icons/src/BladeIconsServiceProvider.php',
@@ -8703,10 +8740,10 @@ class ComposerStaticInitc514d8f7b9fc5970bdd94287905ef584
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitc514d8f7b9fc5970bdd94287905ef584::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitc514d8f7b9fc5970bdd94287905ef584::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitc514d8f7b9fc5970bdd94287905ef584::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitc514d8f7b9fc5970bdd94287905ef584::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitf7b774c648bf40d96f6deebb6eb2e60d::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitf7b774c648bf40d96f6deebb6eb2e60d::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitf7b774c648bf40d96f6deebb6eb2e60d::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitf7b774c648bf40d96f6deebb6eb2e60d::$classMap;
 
         }, null, ClassLoader::class);
     }

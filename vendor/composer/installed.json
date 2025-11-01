@@ -37,7 +37,7 @@
                     }
                 }
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "AnourValar\\EloquentSerialize\\": "src/"
@@ -102,7 +102,7 @@
                     ]
                 }
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "BladeUI\\Heroicons\\": "src"
@@ -1125,7 +1125,7 @@
                     ]
                 }
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Filament\\Actions\\": "src"
@@ -1286,7 +1286,7 @@
                     ]
                 }
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Filament\\Infolists\\": "src"
@@ -4818,7 +4818,7 @@
             },
             "time": "2025-09-24T15:06:41+00:00",
             "type": "library",
-            "installation-source": "source",
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "ParagonIE\\ConstantTime\\": "src/"
@@ -7725,7 +7725,7 @@
             },
             "time": "2025-02-21T14:16:57+00:00",
             "type": "library",
-            "installation-source": "source",
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Spatie\\ShikiPhp\\": "src"
