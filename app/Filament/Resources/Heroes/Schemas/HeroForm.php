@@ -17,10 +17,10 @@ class HeroForm
                     ->schema([
                         FileUpload::make('portrait')
                             ->hiddenLabel()
-                            ->directory('public')
+                            ->directory('heros')
+                            ->disk('public')
                             ->image()
                             ->moveFiles()
-                            ->avatar()
                             ->alignCenter(),
                         TextInput::make('name')
                             ->hiddenLabel()

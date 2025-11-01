@@ -51,8 +51,8 @@ class HeroResource extends Resource
         return [
             'index' => ListHeroes::route('/'),
             'create' => CreateHero::route('/create'),
-            'view' => ViewHero::route('/{record}'),
-            'edit' => EditHero::route('/{record}/edit'),
+            // 'view' => ViewHero::route('/{record}'),
+            // 'edit' => EditHero::route('/{record}/edit'),
         ];
     }
 }
