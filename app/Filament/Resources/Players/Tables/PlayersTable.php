@@ -22,9 +22,12 @@ class PlayersTable
                     ->searchable(),
                 TextColumn::make('display_name')
                     ->searchable(),
-                ImageColumn::make('portrait'),
-                ImageColumn::make('alt_photo_1'),
-                TextColumn::make('alt_photo_2'),
+                ImageColumn::make('portrait')
+                    ->disk('public'),
+                ImageColumn::make('alt_photo_1')
+                    ->disk('public'),
+                ImageColumn::make('alt_photo_2')
+                    ->disk('public'),
                 TextColumn::make('created_at')
                     ->dateTime()
                     ->sortable()

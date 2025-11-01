@@ -51,8 +51,8 @@ class PlayerResource extends Resource
         return [
             'index' => ListPlayers::route('/'),
             'create' => CreatePlayer::route('/create'),
-            'view' => ViewPlayer::route('/{record}'),
-            'edit' => EditPlayer::route('/{record}/edit'),
+            // 'view' => ViewPlayer::route('/{record}'),
+            // 'edit' => EditPlayer::route('/{record}/edit'),
         ];
     }
 }
