@@ -8,6 +8,7 @@ use Filament\Actions\EditAction;
 use Filament\Actions\ViewAction;
 use Filament\Tables\Columns\ImageColumn;
 use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Columns\ToggleColumn;
 use Filament\Tables\Table;
 
 class TournamentsTable
@@ -17,7 +18,7 @@ class TournamentsTable
         return $table
             ->columns([
                 ImageColumn::make('logo')
-                ->label(""),
+                    ->label(""),
                 TextColumn::make('name')
                     ->searchable(),
                 TextColumn::make('primary_color')
@@ -26,6 +27,10 @@ class TournamentsTable
                     ->searchable(),
                 TextColumn::make('acent_color')
                     ->searchable(),
+                ToggleColumn::make('status')
+                    ->label('Status')
+                    ->onColor('success')
+                    ->offColor('danger'),
                 TextColumn::make('created_at')
                     ->dateTime()
                     ->sortable()
